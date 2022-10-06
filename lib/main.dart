@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutterhellow/classes.dart';
-import 'package:flutterhellow/future.dart';
-// import 'package:flutterhellow/basics.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,9 +10,6 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    // test();
-    // testClasses();
-    testFuture();
     return MaterialApp(
       title: 'FlutterHelloW',
       theme: ThemeData(
